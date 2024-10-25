@@ -1,0 +1,65 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Z Job Template",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZDEMO_JOB_CATALOG"
+  },
+  "parameters": {
+    "valueRangesParameters": [
+      {
+        "name": "SO_BURKS",
+        "valueRanges": [
+          {
+            "sign": "include",
+            "option": "equals",
+            "low": "1411"
+          }
+        ]
+      },
+      {
+        "name": "SO_FKBER",
+        "valueRanges": [
+          {
+            "sign": "include",
+            "option": "equals",
+            "low": "YB25"
+          }
+        ]
+      },
+      {
+        "name": "SO_GLFR",
+        "valueRanges": [
+          {
+            "sign": "include",
+            "option": "equals",
+            "low": "0061005000"
+          }
+        ]
+      },
+      {
+        "name": "SO_GLTO",
+        "valueRanges": [
+          {
+            "sign": "include",
+            "option": "equals",
+            "low": "0065008420"
+          }
+        ]
+      },
+      {
+        "name": "SO_KOSTL",
+        "valueRanges": [
+          {
+            "sign": "include",
+            "option": "equals",
+            "low": "0014111101"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Z JOB Catalog",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "className": "Z_NEW_JOB_CLASS_EC"
+  },
+  "parameters": [
+    {
+      "name": "SO_BURKS"
+    },
+    {
+      "name": "SO_KOSTL"
+    },
+    {
+      "name": "SO_FKBER"
+    },
+    {
+      "name": "SO_GLFR"
+    },
+    {
+      "name": "SO_GLTO"
+    }
+  ]
+}
