@@ -1,0 +1,56 @@
+managed implementation in class ZBP_R_ZX_DEM_SALESORD000 unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_ZX_DEM_SALESORD000 alias ZrZxDemSalesord000
+persistent table ZZX_DEM_SALESORD
+draft table ZZX_DEM_SAL000_D
+etag master LocalLastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+
+{
+  field ( readonly )
+   Id,
+   CreatedBy,
+   CreatedAt,
+   LastChangedBy,
+   LastChangedAt,
+   LocalLastChangedAt;
+
+  field ( numbering : managed )
+   Id;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZZX_DEM_SALESORD
+  {
+    Id = id;
+    Firstname = firstname;
+    Lastname = lastname;
+    Age = age;
+    Role = role;
+    Companycode = companycode;
+    CukyField = cuky_field;
+    Valvenda = valvenda;
+    UnitField = unit_field;
+    Quantity = quantity;
+    Bpnumber = bpnumber;
+    Producto = producto;
+    Salesorg = salesorg;
+    Active = active;
+    CreatedBy = created_by;
+    CreatedAt = created_at;
+    LastChangedBy = last_changed_by;
+    LastChangedAt = last_changed_at;
+    LocalLastChangedAt = local_last_changed_at;
+  }
+}

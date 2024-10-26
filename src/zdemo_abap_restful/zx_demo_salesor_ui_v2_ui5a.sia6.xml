@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZX_DEMO_SALESOR_UI_V2_UI5A</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>Sales Order Demo RESTFUL</DESCRIPTION>
+     <RESPONSIBLE>CB9980000000</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>EYU</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZDEMO_ABAP_RESTFUL</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZX_DEMO_SALESOR_UI_V2_UI5A</APP_ID>
+    <APP_TYPE>UI5A</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZUIX_ZX_DEM_SALESORD_O2            0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZX_DEMO_SALESOR_UI_V2_UI5A</APP_ID>
+      <SRVC_NAME>8C92DA50F1F4FEC724CAFA878C04A3</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Service Binding Fiori APP ODATA  V2 _UI</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

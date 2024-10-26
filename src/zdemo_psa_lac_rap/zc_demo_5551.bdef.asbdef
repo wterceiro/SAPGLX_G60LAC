@@ -1,0 +1,18 @@
+projection implementation in class ZBP_I_UXTEAM_5551 unique;
+strict ( 2 );
+use draft;
+//strict ( 2 ); //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZC_DEMO_5551 alias ZcZxDemoUxTeam
+{
+  use create;
+  use update;
+  use delete;
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+  use action setActive;
+}

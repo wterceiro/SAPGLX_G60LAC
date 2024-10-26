@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition'
+define service Z_SERVDEF_UXTEAM_DEMO
+  provider contracts odata_v4_ui {
+  expose ZI_DEMO_5551;
+}

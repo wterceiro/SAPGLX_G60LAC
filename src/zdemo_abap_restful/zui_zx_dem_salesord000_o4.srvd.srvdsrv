@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_ZX_DEM_SALESORD000'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ZX_DEM_SALESORD000'
+  }
+}
+define service ZUI_ZX_DEM_SALESORD000_O4 provider contracts odata_v4_ui {
+  expose ZC_ZX_DEM_SALESORD000;
+}
